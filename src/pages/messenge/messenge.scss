@@ -1,0 +1,49 @@
+.message {
+    font-family: 'Roboto', sans-serif;
+
+    .content {
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        bottom: 75px;
+        overflow-y: scroll;
+    
+        &::-webkit-scrollbar {
+            width: 8px;
+            border-radius: 8px;
+        }
+    
+        &::-webkit-scrollbar-thumb {
+            background-color: #ccc;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+    }
+    
+    .account__message {
+        overflow-y: scroll;
+        max-height: calc(100vh - 160px);
+        &::-webkit-scrollbar {
+            width: 8px;
+            border-radius: 8px;
+        }
+    
+        &::-webkit-scrollbar-thumb {
+            background-color: #ccc;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+    }
+    
+    .input_padding {
+        padding-right: 0 !important;
+    }
+
+    .options {
+        display: none;
+    }
+
+    .message_hover:hover .options {
+        display: flex !important;
+    } 
+}

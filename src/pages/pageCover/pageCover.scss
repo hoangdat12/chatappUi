@@ -1,0 +1,65 @@
+.cover {
+    // .title {
+    //     position: relative;
+    //     font-size: 8vw;
+    //     -webkit-text-stroke: 0.3vw #fff;
+
+    //     &::before {
+    //         content: 'WELCOME TO SOCIAL';
+    //         position: absolute;
+    //         top: 0;
+    //         left: 0;
+    //         width: 0;
+    //         height: 100%;
+    //         color: #d20e60;
+    //         -webkit-text-stroke: 0vw #fff;
+    //         border-right: 2px solid #d20e60;
+    //         overflow: hidden;
+    //         animation: letterCover 6s linear infinite;
+    //     }
+    // }
+    background: rgba(0, 0, 0, 0.5);
+
+    .logo__img {
+        position: absolute;
+        top: 3%;
+        left: 0;
+    }
+
+    .title {
+        color: hsl(0, 0%, 30%);
+        font-size: 4rem;
+        font-weight: bold;
+        letter-spacing: 7px;
+        cursor: pointer;
+        text-transform: uppercase;
+        background: linear-gradient(to right,
+        hsl(248deg 44% 28%) 0, 
+         hsl(299deg 84% 41%) 10%, 
+         hsl(248deg 44% 28%) 20%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: shine 3s infinite linear;
+    }
+
+    .text {
+        width: 800px;
+        margin: 0 auto;
+        font-size: 2rem;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .login_btn {
+        background-color: #0093E9;
+        background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+        
+    }
+
+    .signup_btn {
+        background-color: #FF3CAC;
+        background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+        
+    }
+}

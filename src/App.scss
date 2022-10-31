@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:ital,wght@0,300;0,500;1,400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.content__main {
+  position: relative;
+  min-height: 100vh;
+  width: calc(100% - 550px);
+  left: 250px; 
+  right: 300px;
+}
+
+.content__main2 {
+  position: relative;
+  min-height: 100vh;
+  width: calc(100% - 250px);
+  left: 250px; 
+}
+
+.close {
+  width: 64px !important;
+  padding-bottom: 8rem;
+}
+
+.close ~ .content__main {
+  left: 60px;
+  width: calc(100% - 60px);
+}
+
+.close .hidden_elemenet {
+  display: none !important;
+}
+
+.close .show_up {
+  display: flex !important;
+}
+
+.margin-navbar {
+  position: relative;
+  width: calc(100% - 550px);
+  left: 250px; 
+  right: 300px;
+}
+
+.container {
+  width: 90%;
+}
+
+ul, li {
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@keyframes shine {
+  0% {
+    background-position:  0;
+  }
+  60% {
+    background-position: 700px;
+  }
+  100% {
+    background-color: 700px;
+  }  
+}

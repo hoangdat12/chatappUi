@@ -1,0 +1,17 @@
+button {
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+.btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.btn_outline {
+    border-width: 1px;
+    border-style: solid;
+}

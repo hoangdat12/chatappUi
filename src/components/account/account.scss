@@ -1,0 +1,11 @@
+.account {
+    width: 200px;
+    .image {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+    }
+}
